@@ -12,4 +12,16 @@ public class LottoExtraction {
         this.date = date;
         this.winningNumbers = winningNumbers;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public long getDate() {
+        return date;
+    }
+
+    public List<Integer> getWinningNumbers() {
+        return winningNumbers;
+    }
 }
