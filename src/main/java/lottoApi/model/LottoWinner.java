@@ -12,4 +12,16 @@ public class LottoWinner {
         this.name = name;
         this.numbers = numbers;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public List<Integer> getNumbers() {
+        return numbers;
+    }
 }
